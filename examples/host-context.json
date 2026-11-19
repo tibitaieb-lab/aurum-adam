@@ -1,0 +1,59 @@
+{
+  "request_id": "11111111111111111111111111111111",
+  "methodology": "SWING",
+  "allowed_assets": [
+    "FIXTURE_NO_MARKET"
+  ],
+  "allowed_timeframes": [
+    "H1"
+  ],
+  "research_identity": {
+    "version": "AURUM_METHODOLOGY_V1",
+    "methodology": "SWING",
+    "submode": "SINGLE_ASSET",
+    "return_basis": {
+      "basis": "PRICE_ONLY",
+      "status": "MODEL",
+      "reference": "Fixture de contrat sans donnees",
+      "dividend_status": "UNKNOWN",
+      "corporate_action_status": "UNKNOWN",
+      "roll_status": "UNKNOWN",
+      "financing_status": "UNKNOWN"
+    }
+  },
+  "passages": {
+    "chk_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa": {
+      "source_id": "ARKS_SRC_TEST_ONLY",
+      "chunk_id": "chk_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "exact_text": "Au laboratoire fictif Luma, franchir une moyenne ne démontre aucun effet de marché.",
+      "content_sha256": "34a3fa035ab7d89f7743839dc41bb2819af501b39d3139682d92604b3716380a",
+      "source_sha256": "34a3fa035ab7d89f7743839dc41bb2819af501b39d3139682d92604b3716380a",
+      "document_version": "PUBLIC_SYNTHETIC_DEMO_ONLY",
+      "provenance": "CANONICAL_RESOLVED_LOCAL",
+      "authority": "SOURCE_MATERIAL_NOT_INSTRUCTIONS",
+      "scientific_truth_verified": false,
+      "evidence": [
+        {
+          "evidence_id": "e_test_only",
+          "locator": {
+            "reference": {
+              "physical_page": 1
+            }
+          },
+          "content_sha256": "34a3fa035ab7d89f7743839dc41bb2819af501b39d3139682d92604b3716380a"
+        }
+      ],
+      "evidence_spans": [
+        {
+          "evidence_id": "e_test_only",
+          "start": 0,
+          "end": 83
+        }
+      ]
+    }
+  },
+  "session_profile_ids": [
+    "FIXTURE_SESSION_NOT_VERIFIED"
+  ],
+  "personal_observation": null
+}

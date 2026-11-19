@@ -1,0 +1,42 @@
+{
+  "schema_version": "ADAM_PROPOSAL_V1",
+  "request_id": "11111111111111111111111111111111",
+  "registry_payload_sha256": "1c5cb4b25178b14e4ce9915478b7aea454187124d2c4b58643294c630649db4e",
+  "short_name": "LUMA — EXEMPLE FICTIF UNIQUEMENT",
+  "proposal_version": "1.0.0",
+  "methodology": "SWING",
+  "disposition": "PROPOSED",
+  "author_fields": {
+    "initial_observation": "Sur un instrument imaginaire du laboratoire Luma, une clôture dépasse parfois sa moyenne.",
+    "source_origin": "ARTICLE",
+    "title": "Laboratoire Luma : une règle mécanique à mettre à l’épreuve",
+    "assets": "FIXTURE_NO_MARKET",
+    "timeframes": "H1",
+    "alternative_hypothesis_h1": "La moyenne des rendements nets par opération, en % du notionnel initial, est supérieure à 0,25 %.",
+    "entry_rules": "LONG à l'ouverture suivante si clôture > SMA 3 des clôtures",
+    "exit_rules": "Stop fixe au plus bas du signal moins 1 tick. Objectif fixe 2 R. Positions ouvertes : résultat inconcluant."
+  },
+  "day_controls": null,
+  "reasoning": {
+    "mechanism": "Une règle simple sert à illustrer la formulation et la compilation, sans mécanisme de rendement démontré.",
+    "causal_timing": "Barres cloturees seulement dans la definition synthetique.",
+    "falsification": "Aucun verdict scientifique dans cette recette.",
+    "objections": [
+      "La compilation ne demontre aucun avantage."
+    ],
+    "uncertainties": [
+      "Aucun instrument ni profil de seance reel consulte."
+    ]
+  },
+  "citations": [
+    {
+      "source_id": "ARKS_SRC_TEST_ONLY",
+      "chunk_id": "chk_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "quote": "Au laboratoire fictif Luma, franchir une moyenne ne démontre aucun effet de marché.",
+      "relation": "BACKGROUND",
+      "interpretation": "Ce passage fictif rappelle la nécessité de tester une hypothèse ; il ne soutient aucun avantage."
+    }
+  ],
+  "decisions_required": [],
+  "unsupported_capabilities": []
+}

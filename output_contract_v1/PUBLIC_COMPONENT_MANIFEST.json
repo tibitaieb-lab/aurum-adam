@@ -1,0 +1,9 @@
+{
+  "scope": "PUBLIC_LOCAL_COMPONENT_COHERENCE_NOT_A_SIGNATURE",
+  "files": {
+    "output_common.py": "038b8a700806a7ca766f33c97f5b10b76eee459b36c96e4f77ef47a96b57297e",
+    "output_models.py": "06a06677a5a12451f4ff2ea3604dafc2a2c0c67abecf7b8c21db83106a4a3e83",
+    "native_validation.py": "938ba721f418a8474381d59af82b503cffb19a0e3c61696f94b1d5b2f372225e",
+    "proposal_validation.py": "59eabc5ac7a07eaee6339afc4c357e451e27213a72becce56aeff55e5a6fc29a"
+  }
+}

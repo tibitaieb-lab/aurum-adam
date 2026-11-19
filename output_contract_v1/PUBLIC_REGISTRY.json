@@ -1,0 +1,178 @@
+{
+  "version": "ADAM_PUBLIC_REGISTRY_V1",
+  "scope": "SYNTHETIC_DEMO_NOT_PRIVATE_AURUM_REGISTRY",
+  "method_source_ids": [
+    "ARKS_SRC_METHOD_DEMO"
+  ],
+  "navigation": [
+    {
+      "step": 1,
+      "label": "Observation"
+    },
+    {
+      "step": 2,
+      "label": "Périmètre"
+    },
+    {
+      "step": 3,
+      "label": "Hypothèses"
+    },
+    {
+      "step": 4,
+      "label": "Règles déclaratives"
+    },
+    {
+      "step": 5,
+      "label": "Sources"
+    },
+    {
+      "step": 6,
+      "label": "Mise à l’épreuve"
+    }
+  ],
+  "fields": [
+    {
+      "field": "initial_observation",
+      "label": "Observation",
+      "step": 1,
+      "value_origin": "EXPLICIT_DEMO_OR_NATIVE_DERIVATION"
+    },
+    {
+      "field": "source_origin",
+      "label": "Origine",
+      "step": 1,
+      "value_origin": "EXPLICIT_DEMO_OR_NATIVE_DERIVATION"
+    },
+    {
+      "field": "title",
+      "label": "Titre",
+      "step": 2,
+      "value_origin": "EXPLICIT_DEMO_OR_NATIVE_DERIVATION"
+    },
+    {
+      "field": "assets",
+      "label": "Instrument fictif",
+      "step": 2,
+      "value_origin": "EXPLICIT_DEMO_OR_NATIVE_DERIVATION"
+    },
+    {
+      "field": "timeframes",
+      "label": "Unité temporelle",
+      "step": 2,
+      "value_origin": "EXPLICIT_DEMO_OR_NATIVE_DERIVATION"
+    },
+    {
+      "field": "alternative_hypothesis_h1",
+      "label": "Hypothèse H1",
+      "step": 3,
+      "value_origin": "EXPLICIT_DEMO_OR_NATIVE_DERIVATION"
+    },
+    {
+      "field": "null_hypothesis_h0",
+      "label": "Hypothèse H0",
+      "step": 3,
+      "value_origin": "EXPLICIT_DEMO_OR_NATIVE_DERIVATION"
+    },
+    {
+      "field": "entry_rules",
+      "label": "Règles d’entrée",
+      "step": 4,
+      "value_origin": "EXPLICIT_DEMO_OR_NATIVE_DERIVATION"
+    },
+    {
+      "field": "exit_rules",
+      "label": "Règles de sortie",
+      "step": 4,
+      "value_origin": "EXPLICIT_DEMO_OR_NATIVE_DERIVATION"
+    },
+    {
+      "field": "source_reference",
+      "label": "Référence vérifiable",
+      "step": 5,
+      "value_origin": "EXPLICIT_DEMO_OR_NATIVE_DERIVATION"
+    },
+    {
+      "field": "success_criteria",
+      "label": "Critère exploratoire",
+      "step": 6,
+      "value_origin": "EXPLICIT_DEMO_OR_NATIVE_DERIVATION"
+    },
+    {
+      "field": "rejection_criteria",
+      "label": "Critère contraire",
+      "step": 6,
+      "value_origin": "EXPLICIT_DEMO_OR_NATIVE_DERIVATION"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "day_v2/kernel/__init__.py",
+      "sha256": "9d1d4f9aff4b091b4e84f10f4f0a679631e1ef7d35e23dfd3fdfdbbf1652d98b"
+    },
+    {
+      "path": "day_v2/kernel/_support/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "day_v2/kernel/_support/market_data.py",
+      "sha256": "323f3476d33bf541f8323967b41a8cfb1925a316822823d3447ce1377999863e"
+    },
+    {
+      "path": "day_v2/kernel/_support/resampling.py",
+      "sha256": "2c1e70ad74812fb0cd5ce04fa60461fb1367ccf18f26309e5c1b57aa6680d4a6"
+    },
+    {
+      "path": "day_v2/kernel/_support/timeframe_service.py",
+      "sha256": "9c26191d2d9da1a50f16ddc18e6640d062e253af42c9f0171be0c1b58432fe48"
+    },
+    {
+      "path": "day_v2/kernel/calendar_periods.py",
+      "sha256": "6c39a44c0a144552eb997f51d3b3cd41533dea14245ec15c97784c08065d93ae"
+    },
+    {
+      "path": "day_v2/kernel/compiler.py",
+      "sha256": "bcac63f568852f574e0959a6121d8b1eb8f252fcce8cc8090cbc5ca8f9eff37f"
+    },
+    {
+      "path": "day_v2/kernel/contracts.py",
+      "sha256": "c3009ae55998988255329d789e500c284c73f4ced2ed54f752309d138d904da3"
+    },
+    {
+      "path": "day_v2/kernel/day_authoring.py",
+      "sha256": "c9bc0d9dfd02aaba537b5bb72ae11bd4d982478dc4f54a956a3f3e9cee8b849d"
+    },
+    {
+      "path": "day_v2/kernel/day_contract.py",
+      "sha256": "f24828e3539c0d3891f35edc5bba7968e3a8aaf812b719adfd80c755cc97381d"
+    },
+    {
+      "path": "day_v2/kernel/intraday_consolidation.py",
+      "sha256": "cc4ee3f074ef5a0c7603ebff741c09297d25e78cdf40f3cd91d04fc488ede8c5"
+    },
+    {
+      "path": "day_v2/kernel/methodology.py",
+      "sha256": "9c94e520a2cd10027a5f80d94eadf39312fd9cd5cf55c91bb30e14597770e76a"
+    },
+    {
+      "path": "day_v2/kernel/order_contract.py",
+      "sha256": "d4e5f9af66fa20cb440dfee627e4babac531f1a36a66abe3e14e2d2fb2b8beb7"
+    },
+    {
+      "path": "day_v2/kernel/primitives.py",
+      "sha256": "1b5c1ca215ae258736a40453c11b832aaa10bb4914973030e9b32826c18cb8af"
+    },
+    {
+      "path": "day_v2/kernel/scientific_fields.py",
+      "sha256": "2fda72df1e3894dd9e6688ce4ad0d08593e406c29bf71c838918f040f018d84c"
+    },
+    {
+      "path": "day_v2/kernel/session_profiles.py",
+      "sha256": "b97aeb80c44eca92650b5bea9476478c6dd07822010ac4f9d49405dff9a7ea04"
+    },
+    {
+      "path": "day_v2/kernel/standard_authoring.py",
+      "sha256": "348c5f4cbbc98a8feaaec22d9f2d6ae66c9230222d06af70d8b7468a30c1966c"
+    }
+  ],
+  "registry_payload_sha256": "1c5cb4b25178b14e4ce9915478b7aea454187124d2c4b58643294c630649db4e"
+}
